@@ -3,19 +3,79 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #00602d;
+  margin: 0;
+  background-color: #a8e6cf;
   font-family: 'Oxygen', sans-serif;
 }
 
+
+
 #header-nav {
-  background-color: #a8e6cf;
+  background-color: #20373f;
   border-radius: 0;
   border: 0;
+  height: 200px;
 }
 
 #logo-img {
-  background: url('/site/image/work-img.jpg') no-repeat;
-  width: 100px;
-  height: 100px;
+  background: url('../img/black.png') no-repeat;
+  width: 160px;
+  height: 130px;
   margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #f9ce71;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #313131;
+  margin-top: 0;
+  margin-left: 15px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover , .navbar-brand a:focus, .navbar-brand a:link {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 20px;
+}
+
+#nav-list a {
+  color: #f9ce71;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#nav-list a:hover {
+  background: #c7a45a;
+}
+
+
+.navbar-brand button.navbar-toggler, .navbar-brand icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggler {
+  clear: both;
 }
