@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e3bf29;
+}
+
+header {
+	background-color: #989864;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+#navbarNavDropdown {
+	margin-bottom: 0;
+}
+
+.navbar-collapse {
+	text-align: center;
+	margin-top: 5px;
+	background-color: #1e3226; 
+}
+
+.navbar-collapse a:hover {
+	background: #e5ded5;
+}
+
+section {
+	height: 1000px;
+	background: #401813;
+}
+
+
